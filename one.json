@@ -181,7 +181,7 @@
             {
                 "type":"field",
                 "domain":[
-                    "domain:serv00.com",
+                    "domain:serv00.com"
                 ],
                 "outboundTag":"WARP"
             }
