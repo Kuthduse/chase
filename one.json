@@ -182,7 +182,10 @@
                 "type":"field",
                 "domain":[
                     "domain:openai.com",
-                    "domain:ai.com"
+                    "domain:ai.com",
+                    "domain:youtube.com", 
+                    "domain:ytimg.com", 
+                    "domain:googlevideo.com"
                 ],
                 "outboundTag":"WARP"
             }
