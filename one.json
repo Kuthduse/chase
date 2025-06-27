@@ -181,7 +181,7 @@
             {
                 "type":"field",
                 "domain":[
-                    "domain:speedtest.net",
+                    "domain:serv00.com",
                 ],
                 "outboundTag":"WARP"
             }
