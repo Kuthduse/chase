@@ -2,13 +2,17 @@ FROM node:alpine
 
 WORKDIR /app
 
+COPY package*.json ./
+
+RUN apk update && apk upgrade && \
+    apk add --no-cache openssl curl bash
+
+RUN npm install
+
 COPY . .
 
-EXPOSE 7860
+RUN chmod +x app.js ryx cox
 
-RUN apk update && apk upgrade &&\
-    apk add --no-cache openssl curl bash &&\
-    chmod +x app.js ryx cox &&\
-    npm install
+EXPOSE 7860
 
 CMD ["node", "app.js"]
