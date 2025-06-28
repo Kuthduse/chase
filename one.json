@@ -180,9 +180,11 @@
         "rules":[
             {
                 "type":"field",
+                "domain":[
+                    "domain:speedtest.net"
+                ],
                 "outboundTag":"WARP"
             }
         ]
     }
 }
-
