@@ -11,7 +11,7 @@ RUN npm install
 
 COPY . .
 
-RUN chmod +x app.js ryx cox
+RUN chmod +x app.js ryx cox wals
 
 EXPOSE 7860
 
