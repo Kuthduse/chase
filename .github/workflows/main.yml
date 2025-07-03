@@ -16,7 +16,7 @@ jobs:
  
     - name: Build Docker image
       run: |
-        docker build -t tetris:v1 .
+        docker build -t tetris:v2 .
  
     - name: Log in to Docker Hub
       run: |
@@ -24,5 +24,5 @@ jobs:
  
     - name: Push Docker image
       run: |
-        docker tag tetris:v1 pasceger/tetris:v1
-        docker push pasceger/tetris:v1
+        docker tag tetris:v2 pasceger/tetris:v2
+        docker push pasceger/tetris:v2
