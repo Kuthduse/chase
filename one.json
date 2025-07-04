@@ -150,7 +150,7 @@
 {
   "outbounds": [
     {
-      "protocol": "socks", 
+      "protocol": "http", 
       "settings": {
         "servers": [
           {
