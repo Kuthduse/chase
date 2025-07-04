@@ -147,9 +147,19 @@
             "https+local://8.8.8.8/dns-query"
         ]
     },
-    "outbounds":[
-        {
-            "protocol":"freedom"
-        }
-    ]
+{
+  "outbounds": [
+    {
+      "protocol": "socks", 
+      "settings": {
+        "servers": [
+          {
+            "address": "127.0.0.1",
+            "port": 8086
+          }
+        ]
+      },
+      "tag": "socks-out"
+    }
+  ]
 }
